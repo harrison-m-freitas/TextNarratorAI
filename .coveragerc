@@ -1,0 +1,35 @@
+[run]
+branch = True
+source =
+    core
+    adapters
+    # services
+    # use_cases
+    # utils
+
+omit =
+    */__init__.py
+    */tests/*
+    */settings.py
+    */config.py
+    */main.py
+    */migrations/*
+    */__main__.py
+
+[report]
+show_missing = True
+skip_covered = True
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+    raise NotImplementedError
+    @abc.abstractmethod
+
+[html]
+directory = coverage_html_report
+title = Cobertura de Código - TextNarratorAI
+
+[paths]
+source =
+    .
+    */site-packages
