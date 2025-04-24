@@ -2,6 +2,11 @@
 
 Um sistema modular em Python, baseado nos princípios de Clean Code e SOLID, projetado para processar capítulos de novelas (webnovels, manhuas, etc.), traduzindo para o português, classificando personagens e preparando o conteúdo para narração com áudio automatizado.
 
+![CI](https://github.com/harrison-m-freitas/TextNarratorAI/actions/workflows/ci.yml/badge.svg)
+[![codecov](https://codecov.io/gh/harrison-m-freitas/TextNarratorAI/branch/develop/graph/badge.svg)](https://codecov.io/gh/harrison-m-freitas/TextNarratorAI)
+
+
+
 ## 🎯 Objetivo
 
 - Carregar arquivos `.txt` contendo capítulos.
